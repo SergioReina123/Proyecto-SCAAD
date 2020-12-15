@@ -12,6 +12,5 @@ Este proyecto se desarrolla en el lenguaje de descripción de hardware Verilog y
 * Protocolo de comunicación SPI
 * Arduino
 * Lector RFID
-* Contador de agua
 # Descripción general de funcionamiento
 El sistema permite controlar el flujo de agua en la ducha, delimitar un tiempo para bañarse, dar alertas cuando el tiempo se agote y visualizar el consumo del agua al finalizar la ducha.
