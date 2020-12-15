@@ -1,0 +1,14 @@
+module caudal(
+		input signal,	
+		output reg[20:0] contador
+);
+
+initial contador=0;
+
+always @(posedge signal)begin
+
+	contador=contador+21'd2;
+
+end
+
+endmodule
