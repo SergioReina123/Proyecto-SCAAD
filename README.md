@@ -2,7 +2,6 @@
 El Sistema de Control para Ahorro de Agua en Duchas (SCAAD) esta enfocado a incentivar practicas amigables con el medio ambiente a la hora de ducharse.
 Este proyecto se desarrolla en el lenguaje de descripción de hardware Verilog y posteriormente se monta en una FPGA.
 # Periféricos y protocolos usados
-Dentro de los periféricos se encuentra:
 * Teclado matricial
 * Sensor infrarrojo
 * Servomotor
@@ -15,4 +14,4 @@ Dentro de los periféricos se encuentra:
 * Lector RFID
 * Contador de agua
 # Descripción general de funcionamiento
-El sistema permite controlar el flujo del agua de una ducha, delimitar un tiempo para banarse, dar alertas cuando el tiempo se agote y visualizar el consumo del agua al finalizar el bano.
+El sistema permite controlar el flujo de agua en la ducha, delimitar un tiempo para bañarse, dar alertas cuando el tiempo se agote y visualizar el consumo del agua al finalizar la ducha.
