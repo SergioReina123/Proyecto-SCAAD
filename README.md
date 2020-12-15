@@ -10,7 +10,9 @@ Dentro de los periféricos se encuentra:
 * Display siete segmentos
 * Temporizador
 * Protocolo de comunicación UART
-* Protocolo de comunicación UART}
+* Protocolo de comunicación SPI
 * Arduino
 * Lector RFID
 * Contador de agua
+# Descripción general del funcionamiento del proyecto
+El sistema permite controlar el flujo del agua de una ducha, delimitar un tiempo para banarse, dar alertas cuando el tiempo se agote y visualizar el consumo del agua al finalizar el bano.
