@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -7.439
+TNS   : -933.981
+
+Type  : Slow 1200mV 85C Model Setup 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : -3.541
+TNS   : -44.347
+
+Type  : Slow 1200mV 85C Model Setup 'message[0]'
+Slack : -3.197
+TNS   : -300.823
+
+Type  : Slow 1200mV 85C Model Setup 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : -3.163
+TNS   : -13.769
+
+Type  : Slow 1200mV 85C Model Setup 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -2.696
+TNS   : -67.252
+
+Type  : Slow 1200mV 85C Model Setup 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : -1.570
+TNS   : -7.098
+
+Type  : Slow 1200mV 85C Model Hold 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -0.429
+TNS   : -0.855
+
+Type  : Slow 1200mV 85C Model Hold 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'message[0]'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'Clk'
+Slack : -1.345
+TNS   : -61.026
+
+Type  : Slow 1200mV 85C Model Removal 'Clk'
+Slack : 1.126
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -400.029
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : -1.487
+TNS   : -20.818
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'message[0]'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -6.829
+TNS   : -855.209
+
+Type  : Slow 1200mV 0C Model Setup 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : -3.279
+TNS   : -40.548
+
+Type  : Slow 1200mV 0C Model Setup 'message[0]'
+Slack : -2.950
+TNS   : -279.026
+
+Type  : Slow 1200mV 0C Model Setup 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : -2.856
+TNS   : -12.081
+
+Type  : Slow 1200mV 0C Model Setup 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -2.418
+TNS   : -60.894
+
+Type  : Slow 1200mV 0C Model Setup 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : -1.428
+TNS   : -6.031
+
+Type  : Slow 1200mV 0C Model Hold 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -0.330
+TNS   : -0.646
+
+Type  : Slow 1200mV 0C Model Hold 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'message[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'Clk'
+Slack : -1.191
+TNS   : -53.589
+
+Type  : Slow 1200mV 0C Model Removal 'Clk'
+Slack : 0.977
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -400.029
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : -1.487
+TNS   : -20.818
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : -1.487
+TNS   : -14.885
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'message[0]'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -2.764
+TNS   : -268.438
+
+Type  : Fast 1200mV 0C Model Setup 'message[0]'
+Slack : -1.118
+TNS   : -87.226
+
+Type  : Fast 1200mV 0C Model Setup 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : -0.961
+TNS   : -10.864
+
+Type  : Fast 1200mV 0C Model Setup 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : -0.745
+TNS   : -2.119
+
+Type  : Fast 1200mV 0C Model Setup 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -0.607
+TNS   : -12.727
+
+Type  : Fast 1200mV 0C Model Setup 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : -0.149
+TNS   : -0.487
+
+Type  : Fast 1200mV 0C Model Hold 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'message[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'Clk'
+Slack : -0.104
+TNS   : -3.054
+
+Type  : Fast 1200mV 0C Model Removal 'Clk'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -287.245
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'temporizador_top:temporizador|div_freq:div|clk_1h'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DisplayDin:display|div_freq:freq|clk_1k'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Keyboard_top:key|div_freq:div|clk_1k'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'message[0]'
+Slack : 0.317
+TNS   : 0.000
+
+------------------------------------------------------------

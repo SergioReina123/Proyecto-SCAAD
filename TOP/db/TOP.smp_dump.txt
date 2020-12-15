@@ -1,0 +1,41 @@
+
+State Machine - |TOP|sig
+Name sig.00 sig.10 sig.01 
+sig.00 0 0 0 
+sig.01 1 0 1 
+sig.10 1 1 0 
+
+State Machine - |TOP|status
+Name status.END status.PAUSE status.TEMP status.RE_SEG status.RE_DEC status.RE_MIN status.MENU status.000 
+status.000 0 0 0 0 0 0 0 0 
+status.MENU 0 0 0 0 0 0 1 1 
+status.RE_MIN 0 0 0 0 0 1 0 1 
+status.RE_DEC 0 0 0 0 1 0 0 1 
+status.RE_SEG 0 0 0 1 0 0 0 1 
+status.TEMP 0 0 1 0 0 0 0 1 
+status.PAUSE 0 1 0 0 0 0 0 1 
+status.END 1 0 0 0 0 0 0 1 
+
+State Machine - |TOP|LCD_Top:lcd|LCD_TEST:u5|mLCD_ST
+Name mLCD_ST.000011 mLCD_ST.000010 mLCD_ST.000001 mLCD_ST.000000 
+mLCD_ST.000000 0 0 0 0 
+mLCD_ST.000001 0 0 1 1 
+mLCD_ST.000010 0 1 0 1 
+mLCD_ST.000011 1 0 0 1 
+
+State Machine - |TOP|LCD_Top:lcd|LCD_TEST:u5|LCD_Controller:u0|ST
+Name ST.11 ST.10 ST.01 ST.00 
+ST.00 0 0 0 0 
+ST.01 0 0 1 1 
+ST.10 0 1 0 1 
+ST.11 1 0 0 1 
+
+State Machine - |TOP|temporizador_top:temporizador|temporizador:temp|status
+Name status.EJEC 
+status.00 0 
+status.EJEC 1 
+
+State Machine - |TOP|rfid_top:rfid|UART_rs232_rx:I_RS232RX|State
+Name State.READ 
+State.IDLE 0 
+State.READ 1 

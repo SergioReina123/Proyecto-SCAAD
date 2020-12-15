@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Tx",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RxData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "servo",
+					"strict" : false
+				},
+				{
+					"name" : "column[0]",
+					"strict" : false
+				},
+				{
+					"name" : "column[1]",
+					"strict" : false
+				},
+				{
+					"name" : "column[2]",
+					"strict" : false
+				},
+				{
+					"name" : "column[3]",
+					"strict" : false
+				},
+				{
+					"name" : "alarma",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_EN",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_RS",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSeg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "an[0]",
+					"strict" : false
+				},
+				{
+					"name" : "an[1]",
+					"strict" : false
+				},
+				{
+					"name" : "an[2]",
+					"strict" : false
+				},
+				{
+					"name" : "an[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "Rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "Rx",
+					"strict" : false
+				},
+				{
+					"name" : "filas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "presencia",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

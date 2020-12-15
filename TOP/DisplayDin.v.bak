@@ -1,0 +1,31 @@
+module DisplayDin(input clk,
+                  input [11:0]num,
+                  output[0:6]sseg,
+                  output reg[2:0]an);
+    
+    reg [3:0]BCD;
+    reg [1:0]aux = 2'b00;
+    
+    wire clk_1kh;
+    
+    div_freq freq(clk,clk_1kh,clk1h);
+    BCDtoSSeg bcdseg(BCD,sseg);
+    
+    always @(posedge clk_1kh) begin
+        
+        case (aux)
+            
+            2'b00: begin BCD <= num[3:0];   an <= 3'b011; end
+            2'b01: begin BCD <= num[7:4];   an <= 3'b101; end
+            2'b10: begin BCD <= num[11:8];  an <= 3'b110; end
+            default: begin an <= 3'b111; end
+
+        endcase
+        if(aux<2'b10)
+            aux = aux+1;
+        else
+            aux = 2'b00;
+    end
+    
+endmodule
+    
