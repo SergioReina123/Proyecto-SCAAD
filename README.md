@@ -8,7 +8,7 @@ El video del proyecto es [este](https://drive.google.com/file/d/1eg4OGsy9ewp7y_-
 * Servomotor
 * Pantalla LCD
 * Display siete segmentos
-* Temporizador
+* Alarma
 * Protocolo de comunicación UART
 * Protocolo de comunicación SPI
 * Arduino
