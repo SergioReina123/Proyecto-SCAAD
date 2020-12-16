@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 module    LCD_TEST ( //Host Side
                     iCLK,iRST_N,
                     //LCD Side

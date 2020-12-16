@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE10E22) Path("C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/output_files/") File("TOP.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE10E22) Path("C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/output_files/") File("TOP.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

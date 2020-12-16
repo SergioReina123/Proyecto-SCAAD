@@ -1,5 +1,5 @@
 |TOP
-Clk => Clk.IN6
+Clk => Clk.IN7
 Rst_n => Rst_n.IN1
 Rx => Rx.IN1
 Tx << rfid_top:rfid.Tx
@@ -52,7 +52,7 @@ an[7] << DisplayDin:display.port4
 presencia => always0.IN1
 presencia => always0.IN1
 sw => ~NO_FANOUT~
-signal => signal.IN1
+signal => ~NO_FANOUT~
 
 
 |TOP|rfid_top:rfid
@@ -1740,6 +1740,9 @@ signal => mililitros[12]~reg0.CLK
 signal => mililitros[13]~reg0.CLK
 signal => mililitros[14]~reg0.CLK
 signal => mililitros[15]~reg0.CLK
+contar_caudal => mililitros.OUTPUTSELECT
+contar_caudal => mililitros.OUTPUTSELECT
+contar_caudal => mililitros.OUTPUTSELECT
 mililitros[0] <= mililitros[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 mililitros[1] <= mililitros[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 mililitros[2] <= mililitros[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1756,5 +1759,68 @@ mililitros[12] <= mililitros[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 mililitros[13] <= mililitros[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 mililitros[14] <= mililitros[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 mililitros[15] <= mililitros[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|div_freq:comb_3
+clk => clk_1h~reg0.CLK
+clk => clk_1k~reg0.CLK
+clk => cont2[0].CLK
+clk => cont2[1].CLK
+clk => cont2[2].CLK
+clk => cont2[3].CLK
+clk => cont2[4].CLK
+clk => cont2[5].CLK
+clk => cont2[6].CLK
+clk => cont2[7].CLK
+clk => cont2[8].CLK
+clk => cont2[9].CLK
+clk => cont2[10].CLK
+clk => cont2[11].CLK
+clk => cont2[12].CLK
+clk => cont2[13].CLK
+clk => cont2[14].CLK
+clk => cont2[15].CLK
+clk => cont2[16].CLK
+clk => cont2[17].CLK
+clk => cont2[18].CLK
+clk => cont2[19].CLK
+clk => cont2[20].CLK
+clk => cont2[21].CLK
+clk => cont2[22].CLK
+clk => cont2[23].CLK
+clk => cont2[24].CLK
+clk => cont2[25].CLK
+clk => cont2[26].CLK
+clk => cont2[27].CLK
+clk => cont[0].CLK
+clk => cont[1].CLK
+clk => cont[2].CLK
+clk => cont[3].CLK
+clk => cont[4].CLK
+clk => cont[5].CLK
+clk => cont[6].CLK
+clk => cont[7].CLK
+clk => cont[8].CLK
+clk => cont[9].CLK
+clk => cont[10].CLK
+clk => cont[11].CLK
+clk => cont[12].CLK
+clk => cont[13].CLK
+clk => cont[14].CLK
+clk => cont[15].CLK
+clk => cont[16].CLK
+clk => cont[17].CLK
+clk => cont[18].CLK
+clk => cont[19].CLK
+clk => cont[20].CLK
+clk => cont[21].CLK
+clk => cont[22].CLK
+clk => cont[23].CLK
+clk => cont[24].CLK
+clk => cont[25].CLK
+clk => cont[26].CLK
+clk => cont[27].CLK
+clk_1k <= clk_1k~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk_1h <= clk_1h~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

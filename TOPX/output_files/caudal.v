@@ -1,5 +1,6 @@
 module caudal(
 		input signal,	
+		input contar_caudal,
 		output reg[15:0]mililitros 
 );
 
@@ -9,7 +10,9 @@ initial mililitros=16'b0;
 
 always @(posedge signal)begin
 
-	mililitros[3:0]=mililitros[3:0]+4'd2;
+	if(contar_caudal)begin
+		mililitros[3:0]=mililitros[3:0]+4'd6;
+	end
 	
 	if (mililitros[3:0] >= 4'h9) begin
 							 
