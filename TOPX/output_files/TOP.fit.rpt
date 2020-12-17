@@ -1,5 +1,5 @@
 Fitter report for TOP
-Tue Dec 15 06:00:59 2020
+Tue Dec 15 16:32:40 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -69,17 +69,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Dec 15 06:00:59 2020       ;
+; Fitter Status                      ; Successful - Tue Dec 15 16:32:39 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; TOP                                         ;
 ; Top-level Entity Name              ; TOP                                         ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE10E22C8                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 1,154 / 10,320 ( 11 % )                     ;
+; Total logic elements               ; 1,152 / 10,320 ( 11 % )                     ;
 ;     Total combinational functions  ; 1,119 / 10,320 ( 11 % )                     ;
-;     Dedicated logic registers      ; 354 / 10,320 ( 3 % )                        ;
-; Total registers                    ; 354                                         ;
+;     Dedicated logic registers      ; 356 / 10,320 ( 3 % )                        ;
+; Total registers                    ; 356                                         ;
 ; Total pins                         ; 53 / 92 ( 58 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                         ;
@@ -155,12 +155,12 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.03        ;
+; Average used               ; 1.04        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.6%      ;
+;     Processor 2            ;   3.7%      ;
 +----------------------------+-------------+
 
 
@@ -170,8 +170,8 @@ https://fpgasoftware.intel.com/eula.
 ; Type                ; Total [A + B]       ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+---------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                     ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 1601 ) ; 0.00 % ( 0 / 1601 )        ; 0.00 % ( 0 / 1601 )      ;
-;     -- Achieved     ; 0.00 % ( 0 / 1601 ) ; 0.00 % ( 0 / 1601 )        ; 0.00 % ( 0 / 1601 )      ;
+;     -- Requested    ; 0.00 % ( 0 / 1604 ) ; 0.00 % ( 0 / 1604 )        ; 0.00 % ( 0 / 1604 )      ;
+;     -- Achieved     ; 0.00 % ( 0 / 1604 ) ; 0.00 % ( 0 / 1604 )        ; 0.00 % ( 0 / 1604 )      ;
 ;                     ;                     ;                            ;                          ;
 ; Routing (by net)    ;                     ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )    ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -194,7 +194,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 1593 )   ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 1596 )   ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 8 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -202,7 +202,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/output_files/TOP.pin.
+The pin-out file can be found in C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/output_files/TOP.pin.
 
 
 +-----------------------------------------------------------------------+
@@ -210,26 +210,26 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 +---------------------------------------------+-------------------------+
 ; Resource                                    ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Total logic elements                        ; 1,154 / 10,320 ( 11 % ) ;
-;     -- Combinational with no register       ; 800                     ;
-;     -- Register only                        ; 35                      ;
-;     -- Combinational with a register        ; 319                     ;
+; Total logic elements                        ; 1,152 / 10,320 ( 11 % ) ;
+;     -- Combinational with no register       ; 796                     ;
+;     -- Register only                        ; 33                      ;
+;     -- Combinational with a register        ; 323                     ;
 ;                                             ;                         ;
 ; Logic element usage by number of LUT inputs ;                         ;
-;     -- 4 input functions                    ; 547                     ;
-;     -- 3 input functions                    ; 294                     ;
-;     -- <=2 input functions                  ; 278                     ;
-;     -- Register only                        ; 35                      ;
+;     -- 4 input functions                    ; 551                     ;
+;     -- 3 input functions                    ; 287                     ;
+;     -- <=2 input functions                  ; 281                     ;
+;     -- Register only                        ; 33                      ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
 ;     -- normal mode                          ; 943                     ;
 ;     -- arithmetic mode                      ; 176                     ;
 ;                                             ;                         ;
-; Total registers*                            ; 354 / 10,732 ( 3 % )    ;
-;     -- Dedicated logic registers            ; 354 / 10,320 ( 3 % )    ;
+; Total registers*                            ; 356 / 10,732 ( 3 % )    ;
+;     -- Dedicated logic registers            ; 356 / 10,320 ( 3 % )    ;
 ;     -- I/O registers                        ; 0 / 412 ( 0 % )         ;
 ;                                             ;                         ;
-; Total LABs:  partially or completely used   ; 88 / 645 ( 14 % )       ;
+; Total LABs:  partially or completely used   ; 84 / 645 ( 13 % )       ;
 ; Virtual pins                                ; 0                       ;
 ; I/O pins                                    ; 53 / 92 ( 58 % )        ;
 ;     -- Clock pins                           ; 2 / 3 ( 67 % )          ;
@@ -240,18 +240,18 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; Total block memory implementation bits      ; 0 / 423,936 ( 0 % )     ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 46 ( 0 % )          ;
 ; PLLs                                        ; 0 / 2 ( 0 % )           ;
-; Global signals                              ; 7                       ;
-;     -- Global clocks                        ; 7 / 10 ( 70 % )         ;
+; Global signals                              ; 8                       ;
+;     -- Global clocks                        ; 8 / 10 ( 80 % )         ;
 ; JTAGs                                       ; 0 / 1 ( 0 % )           ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )           ;
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )           ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )           ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )           ;
-; Average interconnect usage (total/H/V)      ; 3.3% / 3.0% / 3.8%      ;
-; Peak interconnect usage (total/H/V)         ; 9.6% / 8.7% / 10.9%     ;
-; Maximum fan-out                             ; 253                     ;
+; Average interconnect usage (total/H/V)      ; 3.3% / 3.0% / 3.7%      ;
+; Peak interconnect usage (total/H/V)         ; 11.0% / 9.2% / 13.5%    ;
+; Maximum fan-out                             ; 255                     ;
 ; Highest non-global fan-out                  ; 143                     ;
-; Total fan-out                               ; 4773                    ;
+; Total fan-out                               ; 4778                    ;
 ; Average fan-out                             ; 2.92                    ;
 +---------------------------------------------+-------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
@@ -265,33 +265,33 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 +---------------------------------------------+-----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                   ; Low                            ;
 ;                                             ;                       ;                                ;
-; Total logic elements                        ; 1154 / 10320 ( 11 % ) ; 0 / 10320 ( 0 % )              ;
-;     -- Combinational with no register       ; 800                   ; 0                              ;
-;     -- Register only                        ; 35                    ; 0                              ;
-;     -- Combinational with a register        ; 319                   ; 0                              ;
+; Total logic elements                        ; 1152 / 10320 ( 11 % ) ; 0 / 10320 ( 0 % )              ;
+;     -- Combinational with no register       ; 796                   ; 0                              ;
+;     -- Register only                        ; 33                    ; 0                              ;
+;     -- Combinational with a register        ; 323                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
-;     -- 4 input functions                    ; 547                   ; 0                              ;
-;     -- 3 input functions                    ; 294                   ; 0                              ;
-;     -- <=2 input functions                  ; 278                   ; 0                              ;
-;     -- Register only                        ; 35                    ; 0                              ;
+;     -- 4 input functions                    ; 551                   ; 0                              ;
+;     -- 3 input functions                    ; 287                   ; 0                              ;
+;     -- <=2 input functions                  ; 281                   ; 0                              ;
+;     -- Register only                        ; 33                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
 ;     -- normal mode                          ; 943                   ; 0                              ;
 ;     -- arithmetic mode                      ; 176                   ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total registers                             ; 354                   ; 0                              ;
-;     -- Dedicated logic registers            ; 354 / 10320 ( 3 % )   ; 0 / 10320 ( 0 % )              ;
+; Total registers                             ; 356                   ; 0                              ;
+;     -- Dedicated logic registers            ; 356 / 10320 ( 3 % )   ; 0 / 10320 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total LABs:  partially or completely used   ; 88 / 645 ( 14 % )     ; 0 / 645 ( 0 % )                ;
+; Total LABs:  partially or completely used   ; 84 / 645 ( 13 % )     ; 0 / 645 ( 0 % )                ;
 ;                                             ;                       ;                                ;
 ; Virtual pins                                ; 0                     ; 0                              ;
 ; I/O pins                                    ; 53                    ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 46 ( 0 % )        ; 0 / 46 ( 0 % )                 ;
 ; Total memory bits                           ; 0                     ; 0                              ;
 ; Total RAM block bits                        ; 0                     ; 0                              ;
-; Clock control block                         ; 7 / 12 ( 58 % )       ; 0 / 12 ( 0 % )                 ;
+; Clock control block                         ; 8 / 12 ( 66 % )       ; 0 / 12 ( 0 % )                 ;
 ;                                             ;                       ;                                ;
 ; Connections                                 ;                       ;                                ;
 ;     -- Input Connections                    ; 8                     ; 0                              ;
@@ -300,8 +300,8 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ;     -- Registered Output Connections        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 4769                  ; 4                              ;
-;     -- Registered Connections               ; 2197                  ; 0                              ;
+;     -- Total Connections                    ; 4774                  ; 4                              ;
+;     -- Registered Connections               ; 2203                  ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
 ;     -- Top                                  ; 16                    ; 0                              ;
@@ -333,7 +333,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 +-----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name      ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +-----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; Clk       ; 23    ; 1        ; 0            ; 11           ; 7            ; 271                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; Clk       ; 23    ; 1        ; 0            ; 11           ; 7            ; 273                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; Rst_n     ; 89    ; 5        ; 34           ; 12           ; 14           ; 20                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
 ; Rx        ; 49    ; 3        ; 13           ; 0            ; 14           ; 3                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; filas[0]  ; 38    ; 3        ; 1            ; 0            ; 21           ; 6                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
@@ -342,7 +342,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; filas[3]  ; 43    ; 3        ; 5            ; 0            ; 21           ; 7                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; presencia ; 52    ; 3        ; 16           ; 0            ; 7            ; 3                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; reset     ; 44    ; 3        ; 5            ; 0            ; 14           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
-; signal    ; 58    ; 4        ; 21           ; 0            ; 7            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; signal    ; 58    ; 4        ; 21           ; 0            ; 7            ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; sw        ; 68    ; 4        ; 30           ; 0            ; 7            ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 +-----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
@@ -370,7 +370,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; SSeg[4]   ; 121   ; 7        ; 23           ; 24           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; SSeg[5]   ; 120   ; 7        ; 23           ; 24           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; SSeg[6]   ; 119   ; 7        ; 23           ; 24           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; Tx        ; 86    ; 5        ; 34           ; 9            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; Tx        ; 31    ; 2        ; 0            ; 7            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; alarma    ; 141   ; 8        ; 5            ; 24           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; an[0]     ; 132   ; 8        ; 13           ; 24           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; an[1]     ; 129   ; 8        ; 16           ; 24           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
@@ -384,7 +384,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; column[1] ; 32    ; 2        ; 0            ; 6            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; column[2] ; 34    ; 2        ; 0            ; 5            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; column[3] ; 28    ; 2        ; 0            ; 9            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; en        ; 50    ; 3        ; 13           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; en        ; 10    ; 1        ; 0            ; 18           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; servo     ; 51    ; 3        ; 16           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 +-----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
@@ -417,7 +417,6 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; 13       ; DATA0                       ; As input tri-stated      ; ~ALTERA_DATA0~          ; Dual Purpose Pin          ;
 ; 14       ; nCONFIG                     ; -                        ; -                       ; Dedicated Programming Pin ;
 ; 21       ; nCE                         ; -                        ; -                       ; Dedicated Programming Pin ;
-; 86       ; DIFFIO_R7n, DEV_OE          ; Use as regular IO        ; Tx                      ; Dual Purpose Pin          ;
 ; 92       ; CONF_DONE                   ; -                        ; -                       ; Dedicated Programming Pin ;
 ; 94       ; MSEL0                       ; -                        ; -                       ; Dedicated Programming Pin ;
 ; 96       ; MSEL1                       ; -                        ; -                       ; Dedicated Programming Pin ;
@@ -438,11 +437,11 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 +----------+------------------+---------------+--------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
-; 1        ; 5 / 11 ( 45 % )  ; 2.5V          ; --           ;
-; 2        ; 4 / 8 ( 50 % )   ; 2.5V          ; --           ;
-; 3        ; 9 / 11 ( 82 % )  ; 2.5V          ; --           ;
+; 1        ; 6 / 11 ( 55 % )  ; 2.5V          ; --           ;
+; 2        ; 5 / 8 ( 63 % )   ; 2.5V          ; --           ;
+; 3        ; 8 / 11 ( 73 % )  ; 2.5V          ; --           ;
 ; 4        ; 6 / 14 ( 43 % )  ; 2.5V          ; --           ;
-; 5        ; 7 / 13 ( 54 % )  ; 2.5V          ; --           ;
+; 5        ; 6 / 13 ( 46 % )  ; 2.5V          ; --           ;
 ; 6        ; 7 / 10 ( 70 % )  ; 2.5V          ; --           ;
 ; 7        ; 10 / 13 ( 77 % ) ; 2.5V          ; --           ;
 ; 8        ; 9 / 12 ( 75 % )  ; 2.5V          ; --           ;
@@ -463,7 +462,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; 7        ; 6          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 8        ; 7          ; 1        ; ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; On           ;
 ; 9        ; 9          ; 1        ; ^nSTATUS                                                  ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; 10       ; 13         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; 10       ; 13         ; 1        ; en                                                        ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 11       ; 14         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 12       ; 15         ; 1        ; ~ALTERA_DCLK~                                             ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; On           ;
 ; 13       ; 16         ; 1        ; ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP          ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; On           ;
@@ -484,7 +483,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; 28       ; 31         ; 2        ; column[3]                                                 ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; 29       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 30       ; 34         ; 2        ; column[0]                                                 ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; 31       ; 36         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; 31       ; 36         ; 2        ; Tx                                                        ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 32       ; 39         ; 2        ; column[1]                                                 ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; 33       ; 40         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 34       ; 41         ; 2        ; column[2]                                                 ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
@@ -503,7 +502,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; 47       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; 48       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 49       ; 68         ; 3        ; Rx                                                        ; input  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
-; 50       ; 69         ; 3        ; en                                                        ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; 50       ; 69         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; 51       ; 70         ; 3        ; servo                                                     ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 52       ; 72         ; 3        ; presencia                                                 ; input  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 53       ; 73         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -539,7 +538,7 @@ The pin-out file can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/o
 ; 83       ; 117        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 84       ; 118        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 85       ; 119        ; 5        ; LCD_RS                                                    ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; 86       ; 120        ; 5        ; Tx                                                        ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 86       ; 120        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 87       ; 121        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 88       ; 125        ; 5        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 89       ; 126        ; 5        ; Rst_n                                                     ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
@@ -645,6 +644,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; an[6]       ; Incomplete set of assignments ;
 ; an[7]       ; Incomplete set of assignments ;
 ; sw          ; Incomplete set of assignments ;
+; signal      ; Incomplete set of assignments ;
 ; LCD_DATA[0] ; Incomplete set of assignments ;
 ; LCD_DATA[1] ; Incomplete set of assignments ;
 ; LCD_DATA[2] ; Incomplete set of assignments ;
@@ -661,7 +661,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; filas[2]    ; Incomplete set of assignments ;
 ; filas[0]    ; Incomplete set of assignments ;
 ; presencia   ; Incomplete set of assignments ;
-; signal      ; Incomplete set of assignments ;
 ; Tx          ; Missing location assignment   ;
 ; en          ; Missing location assignment   ;
 ; reset       ; Missing location assignment   ;
@@ -674,7 +673,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------+-------------------------+--------------+
 ; Compilation Hierarchy Node                ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                  ; Entity Name             ; Library Name ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------+-------------------------+--------------+
-; |TOP                                      ; 1154 (231)  ; 354 (83)                  ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 53   ; 0            ; 800 (148)    ; 35 (5)            ; 319 (82)         ; |TOP                                                 ; TOP                     ; work         ;
+; |TOP                                      ; 1152 (231)  ; 356 (84)                  ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 53   ; 0            ; 796 (147)    ; 33 (4)            ; 323 (84)         ; |TOP                                                 ; TOP                     ; work         ;
 ;    |DisplayDin:display|                   ; 65 (21)     ; 41 (12)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 24 (9)       ; 1 (0)             ; 40 (12)          ; |TOP|DisplayDin:display                              ; DisplayDin              ; work         ;
 ;       |BCDtoSSeg:bcdseg|                  ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |TOP|DisplayDin:display|BCDtoSSeg:bcdseg             ; BCDtoSSeg               ; work         ;
 ;       |div_freq:freq|                     ; 37 (37)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 1 (1)             ; 28 (28)          ; |TOP|DisplayDin:display|div_freq:freq                ; div_freq                ; work         ;
@@ -682,18 +681,19 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;       |barrido:bar|                       ; 6 (6)       ; 6 (6)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 6 (6)            ; |TOP|Keyboard_top:key|barrido:bar                    ; barrido                 ; work         ;
 ;       |comparador:comp|                   ; 31 (31)     ; 4 (4)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 27 (27)      ; 0 (0)             ; 4 (4)            ; |TOP|Keyboard_top:key|comparador:comp                ; comparador              ; work         ;
 ;       |div_freq:div|                      ; 11 (11)     ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (10)      ; 1 (1)             ; 0 (0)            ; |TOP|Keyboard_top:key|div_freq:div                   ; div_freq                ; work         ;
-;    |LCD_Top:lcd|                          ; 534 (288)   ; 72 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 462 (288)    ; 2 (0)             ; 70 (1)           ; |TOP|LCD_Top:lcd                                     ; LCD_Top                 ; work         ;
-;       |LCD_TEST:u5|                       ; 218 (195)   ; 51 (38)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 167 (157)    ; 1 (0)             ; 50 (38)          ; |TOP|LCD_Top:lcd|LCD_TEST:u5                         ; LCD_TEST                ; work         ;
-;          |LCD_Controller:u0|              ; 23 (23)     ; 13 (13)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (10)      ; 1 (1)             ; 12 (12)          ; |TOP|LCD_Top:lcd|LCD_TEST:u5|LCD_Controller:u0       ; LCD_Controller          ; work         ;
+;    |LCD_Top:lcd|                          ; 534 (289)   ; 72 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 462 (289)    ; 2 (0)             ; 70 (0)           ; |TOP|LCD_Top:lcd                                     ; LCD_Top                 ; work         ;
+;       |LCD_TEST:u5|                       ; 217 (195)   ; 51 (38)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 166 (157)    ; 1 (0)             ; 50 (38)          ; |TOP|LCD_Top:lcd|LCD_TEST:u5                         ; LCD_TEST                ; work         ;
+;          |LCD_Controller:u0|              ; 22 (22)     ; 13 (13)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (9)        ; 1 (1)             ; 12 (12)          ; |TOP|LCD_Top:lcd|LCD_TEST:u5|LCD_Controller:u0       ; LCD_Controller          ; work         ;
 ;       |Reset_Delay:r0|                    ; 28 (28)     ; 21 (21)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 1 (1)             ; 20 (20)          ; |TOP|LCD_Top:lcd|Reset_Delay:r0                      ; Reset_Delay             ; work         ;
 ;    |Valvula_top:serv|                     ; 55 (55)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 26 (26)      ; 0 (0)             ; 29 (29)          ; |TOP|Valvula_top:serv                                ; Valvula_top             ; work         ;
-;    |caudal:cad|                           ; 38 (38)     ; 15 (15)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 23 (23)      ; 9 (9)             ; 6 (6)            ; |TOP|caudal:cad                                      ; caudal                  ; work         ;
+;    |caudal:cad|                           ; 35 (35)     ; 15 (15)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 20 (20)      ; 8 (8)             ; 7 (7)            ; |TOP|caudal:cad                                      ; caudal                  ; work         ;
+;    |div_freq:comb_3|                      ; 43 (43)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 13 (13)      ; 1 (1)             ; 29 (29)          ; |TOP|div_freq:comb_3                                 ; div_freq                ; work         ;
 ;    |rfid_top:rfid|                        ; 91 (0)      ; 60 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 31 (0)       ; 16 (0)            ; 44 (0)           ; |TOP|rfid_top:rfid                                   ; rfid_top                ; work         ;
 ;       |UART_BaudRate_generator:I_BAUDGEN| ; 22 (22)     ; 16 (16)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 1 (1)             ; 15 (15)          ; |TOP|rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN ; UART_BaudRate_generator ; work         ;
 ;       |UART_rs232_rx:I_RS232RX|           ; 41 (41)     ; 28 (28)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 13 (13)      ; 14 (14)           ; 14 (14)          ; |TOP|rfid_top:rfid|UART_rs232_rx:I_RS232RX           ; UART_rs232_rx           ; work         ;
 ;       |UART_rs232_tx:I_RS232TX|           ; 28 (28)     ; 16 (16)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 12 (12)      ; 1 (1)             ; 15 (15)          ; |TOP|rfid_top:rfid|UART_rs232_tx:I_RS232TX           ; UART_rs232_tx           ; work         ;
-;    |temporizador_top:temporizador|        ; 92 (0)      ; 43 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 49 (0)       ; 1 (0)             ; 42 (0)           ; |TOP|temporizador_top:temporizador                   ; temporizador_top        ; work         ;
-;       |div_freq:div|                      ; 52 (52)     ; 29 (29)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 23 (23)      ; 1 (1)             ; 28 (28)          ; |TOP|temporizador_top:temporizador|div_freq:div      ; div_freq                ; work         ;
+;    |temporizador_top:temporizador|        ; 51 (0)      ; 15 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 36 (0)       ; 0 (0)             ; 15 (0)           ; |TOP|temporizador_top:temporizador                   ; temporizador_top        ; work         ;
+;       |div_freq:div|                      ; 11 (11)     ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 1 (1)            ; |TOP|temporizador_top:temporizador|div_freq:div      ; div_freq                ; work         ;
 ;       |temporizador:temp|                 ; 40 (40)     ; 14 (14)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 26 (26)      ; 0 (0)             ; 14 (14)          ; |TOP|temporizador_top:temporizador|temporizador:temp ; temporizador            ; work         ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------+-------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -740,6 +740,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; an[6]       ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; an[7]       ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; sw          ; Input    ; --            ; --            ; --                    ; --  ; --   ;
+; signal      ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; LCD_DATA[0] ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
 ; LCD_DATA[1] ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
 ; LCD_DATA[2] ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
@@ -751,87 +752,71 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Clk         ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 ; Rst_n       ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 ; Rx          ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; filas[3]    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; filas[3]    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; filas[1]    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; filas[2]    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; filas[2]    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; filas[0]    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; presencia   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; signal      ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
+; presencia   ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 +-------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+-----------------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                          ;
-+-----------------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                       ; Pad To Core Index ; Setting ;
-+-----------------------------------------------------------+-------------------+---------+
-; reset                                                     ;                   ;         ;
-; sw                                                        ;                   ;         ;
-; LCD_DATA[0]                                               ;                   ;         ;
-; LCD_DATA[1]                                               ;                   ;         ;
-; LCD_DATA[2]                                               ;                   ;         ;
-; LCD_DATA[3]                                               ;                   ;         ;
-; LCD_DATA[4]                                               ;                   ;         ;
-; LCD_DATA[5]                                               ;                   ;         ;
-; LCD_DATA[6]                                               ;                   ;         ;
-; LCD_DATA[7]                                               ;                   ;         ;
-; Clk                                                       ;                   ;         ;
-; Rst_n                                                     ;                   ;         ;
-; Rx                                                        ;                   ;         ;
-;      - rfid_top:rfid|UART_rs232_rx:I_RS232RX|Read_data[7] ; 0                 ; 6       ;
-;      - rfid_top:rfid|UART_rs232_rx:I_RS232RX|Next.READ~0  ; 0                 ; 6       ;
-;      - rfid_top:rfid|UART_rs232_rx:I_RS232RX|always3~4    ; 0                 ; 6       ;
-; filas[3]                                                  ;                   ;         ;
-;      - Keyboard_top:key|comparador:comp|num[2]            ; 1                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~0             ; 1                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num[0]~1          ; 1                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~7             ; 1                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~11            ; 1                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~1           ; 1                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~2           ; 1                 ; 6       ;
-; filas[1]                                                  ;                   ;         ;
-;      - Keyboard_top:key|comparador:comp|num~0             ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num[0]~1          ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~7             ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~12            ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~13            ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~1           ; 0                 ; 6       ;
-; filas[2]                                                  ;                   ;         ;
-;      - Keyboard_top:key|comparador:comp|num[0]~1          ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~7             ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~11            ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|num~14            ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~0           ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~1           ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~2           ; 0                 ; 6       ;
-; filas[0]                                                  ;                   ;         ;
-;      - Keyboard_top:key|comparador:comp|num[0]~1          ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~0           ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~3           ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~4           ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~7           ; 0                 ; 6       ;
-;      - Keyboard_top:key|comparador:comp|Mux11~8           ; 0                 ; 6       ;
-; presencia                                                 ;                   ;         ;
-;      - Selector8~2                                        ; 0                 ; 6       ;
-;      - Selector6~7                                        ; 0                 ; 6       ;
-;      - Selector8~12                                       ; 0                 ; 6       ;
-; signal                                                    ;                   ;         ;
-;      - caudal:cad|mililitros[1]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[2]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[3]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[4]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[5]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[6]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[7]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[8]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[9]                           ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[10]                          ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[11]                          ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[12]                          ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[13]                          ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[14]                          ; 0                 ; 0       ;
-;      - caudal:cad|mililitros[15]                          ; 0                 ; 0       ;
-+-----------------------------------------------------------+-------------------+---------+
++------------------------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                                                 ;
++------------------------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                                              ; Pad To Core Index ; Setting ;
++------------------------------------------------------------------+-------------------+---------+
+; reset                                                            ;                   ;         ;
+; sw                                                               ;                   ;         ;
+; signal                                                           ;                   ;         ;
+; LCD_DATA[0]                                                      ;                   ;         ;
+; LCD_DATA[1]                                                      ;                   ;         ;
+; LCD_DATA[2]                                                      ;                   ;         ;
+; LCD_DATA[3]                                                      ;                   ;         ;
+; LCD_DATA[4]                                                      ;                   ;         ;
+; LCD_DATA[5]                                                      ;                   ;         ;
+; LCD_DATA[6]                                                      ;                   ;         ;
+; LCD_DATA[7]                                                      ;                   ;         ;
+; Clk                                                              ;                   ;         ;
+; Rst_n                                                            ;                   ;         ;
+; Rx                                                               ;                   ;         ;
+;      - rfid_top:rfid|UART_rs232_rx:I_RS232RX|Next.READ~0         ; 0                 ; 6       ;
+;      - rfid_top:rfid|UART_rs232_rx:I_RS232RX|always3~4           ; 0                 ; 6       ;
+;      - rfid_top:rfid|UART_rs232_rx:I_RS232RX|Read_data[7]~feeder ; 0                 ; 6       ;
+; filas[3]                                                         ;                   ;         ;
+;      - Keyboard_top:key|comparador:comp|num[2]                   ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~0                    ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num[2]~1                 ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~7                    ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~11                   ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~1                  ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~2                  ; 0                 ; 6       ;
+; filas[1]                                                         ;                   ;         ;
+;      - Keyboard_top:key|comparador:comp|num~0                    ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num[2]~1                 ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~7                    ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~12                   ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~13                   ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~1                  ; 0                 ; 6       ;
+; filas[2]                                                         ;                   ;         ;
+;      - Keyboard_top:key|comparador:comp|num[2]~1                 ; 1                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~7                    ; 1                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~11                   ; 1                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|num~14                   ; 1                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~0                  ; 1                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~1                  ; 1                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~2                  ; 1                 ; 6       ;
+; filas[0]                                                         ;                   ;         ;
+;      - Keyboard_top:key|comparador:comp|num[2]~1                 ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~0                  ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~3                  ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~4                  ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~7                  ; 0                 ; 6       ;
+;      - Keyboard_top:key|comparador:comp|Mux11~8                  ; 0                 ; 6       ;
+; presencia                                                        ;                   ;         ;
+;      - Selector5~2                                               ; 1                 ; 6       ;
+;      - Selector6~6                                               ; 1                 ; 6       ;
+;      - Selector5~11                                              ; 1                 ; 6       ;
++------------------------------------------------------------------+-------------------+---------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -840,58 +825,60 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                             ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Clk                                                              ; PIN_23             ; 19      ; Clock        ; no     ; --                   ; --               ; --                        ;
-; Clk                                                              ; PIN_23             ; 253     ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
-; DisplayDin:display|BCD[0]~0                                      ; LCCOMB_X11_Y6_N6   ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; DisplayDin:display|div_freq:freq|clk_1k                          ; FF_X11_Y12_N25     ; 12      ; Clock        ; yes    ; Global Clock         ; GCLK4            ; --                        ;
-; Keyboard_top:key|comparador:comp|num[0]~15                       ; LCCOMB_X11_Y4_N24  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Keyboard_top:key|div_freq:div|Equal0~8                           ; LCCOMB_X11_Y12_N10 ; 9       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Keyboard_top:key|div_freq:div|clk_1k                             ; FF_X11_Y12_N3      ; 10      ; Clock        ; yes    ; Global Clock         ; GCLK3            ; --                        ;
-; LCD_Top:lcd|LCD_TEST:u5|LCD_Controller:u0|mStart                 ; FF_X19_Y10_N21     ; 12      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; LCD_Top:lcd|LCD_TEST:u5|LessThan0~5                              ; LCCOMB_X26_Y11_N30 ; 20      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; LCD_Top:lcd|LCD_TEST:u5|mLCD_ST.000000                           ; FF_X25_Y11_N29     ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; LCD_Top:lcd|LCD_TEST:u5|mLCD_ST.000010                           ; FF_X26_Y12_N3      ; 22      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; LCD_Top:lcd|LCD_TEST:u5|mLCD_ST.000011                           ; FF_X26_Y11_N27     ; 9       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; LCD_Top:lcd|Mux0~0                                               ; LCCOMB_X21_Y9_N6   ; 145     ; Latch enable ; yes    ; Global Clock         ; GCLK5            ; --                        ;
-; LCD_Top:lcd|Reset_Delay:r0|Equal0~6                              ; LCCOMB_X26_Y10_N8  ; 21      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; LCD_Top:lcd|Reset_Delay:r0|oRESET                                ; FF_X26_Y10_N3      ; 51      ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; Rst_n                                                            ; PIN_89             ; 20      ; Async. clear ; yes    ; Global Clock         ; GCLK9            ; --                        ;
-; Selector59~0                                                     ; LCCOMB_X12_Y5_N20  ; 5       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; WideOr2~0                                                        ; LCCOMB_X14_Y7_N24  ; 17      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; count[12]~96                                                     ; LCCOMB_X18_Y8_N0   ; 30      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; Clk                                                              ; PIN_23             ; 255     ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
+; DisplayDin:display|BCD[1]~0                                      ; LCCOMB_X11_Y17_N16 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; DisplayDin:display|div_freq:freq|clk_1k                          ; FF_X11_Y12_N7      ; 12      ; Clock        ; yes    ; Global Clock         ; GCLK0            ; --                        ;
+; Keyboard_top:key|comparador:comp|num[2]~15                       ; LCCOMB_X13_Y14_N30 ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Keyboard_top:key|div_freq:div|Equal0~8                           ; LCCOMB_X11_Y12_N14 ; 9       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Keyboard_top:key|div_freq:div|clk_1k                             ; FF_X11_Y12_N25     ; 10      ; Clock        ; yes    ; Global Clock         ; GCLK8            ; --                        ;
+; LCD_Top:lcd|LCD_TEST:u5|LCD_Controller:u0|mStart                 ; FF_X28_Y17_N17     ; 12      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; LCD_Top:lcd|LCD_TEST:u5|LessThan0~5                              ; LCCOMB_X25_Y17_N20 ; 20      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; LCD_Top:lcd|LCD_TEST:u5|mLCD_ST.000000                           ; FF_X25_Y18_N5      ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; LCD_Top:lcd|LCD_TEST:u5|mLCD_ST.000010                           ; FF_X25_Y17_N25     ; 22      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; LCD_Top:lcd|LCD_TEST:u5|mLCD_ST.000011                           ; FF_X25_Y17_N23     ; 9       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; LCD_Top:lcd|Mux0~0                                               ; LCCOMB_X18_Y16_N24 ; 145     ; Latch enable ; yes    ; Global Clock         ; GCLK9            ; --                        ;
+; LCD_Top:lcd|Reset_Delay:r0|Equal0~6                              ; LCCOMB_X26_Y16_N8  ; 21      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; LCD_Top:lcd|Reset_Delay:r0|oRESET                                ; FF_X26_Y16_N1      ; 51      ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; Rst_n                                                            ; PIN_89             ; 20      ; Async. clear ; yes    ; Global Clock         ; GCLK6            ; --                        ;
+; Selector60~0                                                     ; LCCOMB_X13_Y15_N12 ; 5       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; WideOr2~0                                                        ; LCCOMB_X14_Y15_N14 ; 17      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; count[1]~96                                                      ; LCCOMB_X16_Y18_N0  ; 30      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; div_freq:comb_3|clk_1h                                           ; FF_X4_Y4_N5        ; 15      ; Clock        ; yes    ; Global Clock         ; GCLK4            ; --                        ;
 ; filas[3]                                                         ; PIN_43             ; 7       ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0           ; LCCOMB_X2_Y11_N2   ; 17      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0           ; LCCOMB_X2_Y11_N2   ; 32      ; Clock        ; yes    ; Global Clock         ; GCLK0            ; --                        ;
-; rfid_top:rfid|UART_rs232_rx:I_RS232RX|Bit[0]~0                   ; LCCOMB_X24_Y3_N28  ; 5       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; rfid_top:rfid|UART_rs232_rx:I_RS232RX|Read_data[0]~0             ; LCCOMB_X25_Y3_N28  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; rfid_top:rfid|UART_rs232_rx:I_RS232RX|State.READ                 ; FF_X25_Y3_N5       ; 9       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; rfid_top:rfid|UART_rs232_tx:I_RS232TX|Bit[4]~0                   ; LCCOMB_X30_Y8_N28  ; 5       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; rfid_top:rfid|UART_rs232_tx:I_RS232TX|State                      ; FF_X32_Y8_N21      ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; signal                                                           ; PIN_58             ; 15      ; Clock        ; no     ; --                   ; --               ; --                        ;
-; status.END                                                       ; FF_X14_Y5_N17      ; 32      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; status.TEMP                                                      ; FF_X13_Y5_N1       ; 31      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; temporizador_top:temporizador|div_freq:div|clk_1h                ; FF_X26_Y16_N9      ; 14      ; Clock        ; yes    ; Global Clock         ; GCLK7            ; --                        ;
-; temporizador_top:temporizador|temporizador:temp|status.EJEC      ; FF_X11_Y7_N25      ; 18      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; temporizador_top:temporizador|temporizador:temp|tiempo_sig[4]~8  ; LCCOMB_X11_Y7_N14  ; 5       ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]~21 ; LCCOMB_X13_Y7_N10  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; tiempo_aux[11]~0                                                 ; LCCOMB_X14_Y5_N30  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; tiempo_aux[7]~1                                                  ; LCCOMB_X10_Y6_N26  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; tiempo_establecido[10]~1                                         ; LCCOMB_X14_Y7_N26  ; 11      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0           ; LCCOMB_X2_Y11_N2   ; 32      ; Clock        ; yes    ; Global Clock         ; GCLK3            ; --                        ;
+; rfid_top:rfid|UART_rs232_rx:I_RS232RX|Bit[0]~0                   ; LCCOMB_X23_Y4_N12  ; 5       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rfid_top:rfid|UART_rs232_rx:I_RS232RX|Read_data[0]~0             ; LCCOMB_X24_Y4_N28  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rfid_top:rfid|UART_rs232_rx:I_RS232RX|State.READ                 ; FF_X24_Y4_N1       ; 9       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rfid_top:rfid|UART_rs232_tx:I_RS232TX|Bit[4]~0                   ; LCCOMB_X2_Y4_N2    ; 5       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; rfid_top:rfid|UART_rs232_tx:I_RS232TX|State                      ; FF_X3_Y4_N25       ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; status.END                                                       ; FF_X13_Y15_N15     ; 32      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; status.TEMP                                                      ; FF_X12_Y15_N21     ; 32      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; temporizador_top:temporizador|div_freq:div|Equal1~8              ; LCCOMB_X4_Y4_N0    ; 15      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; temporizador_top:temporizador|div_freq:div|clk_1h                ; FF_X5_Y4_N1        ; 14      ; Clock        ; yes    ; Global Clock         ; GCLK1            ; --                        ;
+; temporizador_top:temporizador|temporizador:temp|status.EJEC      ; FF_X10_Y16_N9      ; 18      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[4]~21 ; LCCOMB_X11_Y16_N20 ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[4]~8  ; LCCOMB_X12_Y16_N24 ; 5       ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; tiempo_aux[11]~0                                                 ; LCCOMB_X14_Y14_N26 ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; tiempo_aux[7]~1                                                  ; LCCOMB_X14_Y14_N24 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; tiempo_establecido[10]~1                                         ; LCCOMB_X14_Y15_N2  ; 11      ; Clock enable ; no     ; --                   ; --               ; --                        ;
 +------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                                                                      ;
-+--------------------------------------------------------+------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name                                                   ; Location         ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+--------------------------------------------------------+------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Clk                                                    ; PIN_23           ; 253     ; 34                                   ; Global Clock         ; GCLK2            ; --                        ;
-; DisplayDin:display|div_freq:freq|clk_1k                ; FF_X11_Y12_N25   ; 12      ; 0                                    ; Global Clock         ; GCLK4            ; --                        ;
-; Keyboard_top:key|div_freq:div|clk_1k                   ; FF_X11_Y12_N3    ; 10      ; 2                                    ; Global Clock         ; GCLK3            ; --                        ;
-; LCD_Top:lcd|Mux0~0                                     ; LCCOMB_X21_Y9_N6 ; 145     ; 0                                    ; Global Clock         ; GCLK5            ; --                        ;
-; Rst_n                                                  ; PIN_89           ; 20      ; 0                                    ; Global Clock         ; GCLK9            ; --                        ;
-; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0 ; LCCOMB_X2_Y11_N2 ; 32      ; 0                                    ; Global Clock         ; GCLK0            ; --                        ;
-; temporizador_top:temporizador|div_freq:div|clk_1h      ; FF_X26_Y16_N9    ; 14      ; 0                                    ; Global Clock         ; GCLK7            ; --                        ;
-+--------------------------------------------------------+------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                                                                        ;
++--------------------------------------------------------+--------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name                                                   ; Location           ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++--------------------------------------------------------+--------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Clk                                                    ; PIN_23             ; 255     ; 0                                    ; Global Clock         ; GCLK2            ; --                        ;
+; DisplayDin:display|div_freq:freq|clk_1k                ; FF_X11_Y12_N7      ; 12      ; 0                                    ; Global Clock         ; GCLK0            ; --                        ;
+; Keyboard_top:key|div_freq:div|clk_1k                   ; FF_X11_Y12_N25     ; 10      ; 1                                    ; Global Clock         ; GCLK8            ; --                        ;
+; LCD_Top:lcd|Mux0~0                                     ; LCCOMB_X18_Y16_N24 ; 145     ; 0                                    ; Global Clock         ; GCLK9            ; --                        ;
+; Rst_n                                                  ; PIN_89             ; 20      ; 0                                    ; Global Clock         ; GCLK6            ; --                        ;
+; div_freq:comb_3|clk_1h                                 ; FF_X4_Y4_N5        ; 15      ; 0                                    ; Global Clock         ; GCLK4            ; --                        ;
+; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0 ; LCCOMB_X2_Y11_N2   ; 32      ; 0                                    ; Global Clock         ; GCLK3            ; --                        ;
+; temporizador_top:temporizador|div_freq:div|clk_1h      ; FF_X5_Y4_N1        ; 14      ; 0                                    ; Global Clock         ; GCLK1            ; --                        ;
++--------------------------------------------------------+--------------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
 +------------------------------------------------+
@@ -899,37 +886,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+------------------------+
 ; Routing Resource Type ; Usage                  ;
 +-----------------------+------------------------+
-; Block interconnects   ; 1,488 / 32,401 ( 5 % ) ;
-; C16 interconnects     ; 23 / 1,326 ( 2 % )     ;
-; C4 interconnects      ; 814 / 21,816 ( 4 % )   ;
-; Direct links          ; 326 / 32,401 ( 1 % )   ;
-; Global clocks         ; 7 / 10 ( 70 % )        ;
-; Local interconnects   ; 752 / 10,320 ( 7 % )   ;
-; R24 interconnects     ; 12 / 1,289 ( < 1 % )   ;
-; R4 interconnects      ; 853 / 28,186 ( 3 % )   ;
+; Block interconnects   ; 1,401 / 32,401 ( 4 % ) ;
+; C16 interconnects     ; 14 / 1,326 ( 1 % )     ;
+; C4 interconnects      ; 816 / 21,816 ( 4 % )   ;
+; Direct links          ; 338 / 32,401 ( 1 % )   ;
+; Global clocks         ; 8 / 10 ( 80 % )        ;
+; Local interconnects   ; 740 / 10,320 ( 7 % )   ;
+; R24 interconnects     ; 21 / 1,289 ( 2 % )     ;
+; R4 interconnects      ; 837 / 28,186 ( 3 % )   ;
 +-----------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 13.11) ; Number of LABs  (Total = 88) ;
+; Number of Logic Elements  (Average = 13.71) ; Number of LABs  (Total = 84) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
-; 2                                           ; 2                            ;
-; 3                                           ; 1                            ;
-; 4                                           ; 4                            ;
-; 5                                           ; 0                            ;
-; 6                                           ; 0                            ;
+; 1                                           ; 1                            ;
+; 2                                           ; 0                            ;
+; 3                                           ; 0                            ;
+; 4                                           ; 1                            ;
+; 5                                           ; 2                            ;
+; 6                                           ; 2                            ;
 ; 7                                           ; 3                            ;
-; 8                                           ; 2                            ;
+; 8                                           ; 3                            ;
 ; 9                                           ; 2                            ;
-; 10                                          ; 4                            ;
-; 11                                          ; 3                            ;
+; 10                                          ; 2                            ;
+; 11                                          ; 1                            ;
 ; 12                                          ; 4                            ;
 ; 13                                          ; 1                            ;
 ; 14                                          ; 5                            ;
-; 15                                          ; 10                           ;
+; 15                                          ; 12                           ;
 ; 16                                          ; 45                           ;
 +---------------------------------------------+------------------------------+
 
@@ -937,78 +924,79 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.11) ; Number of LABs  (Total = 88) ;
+; LAB-wide Signals  (Average = 1.18) ; Number of LABs  (Total = 84) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 18                           ;
-; 1 Clock                            ; 44                           ;
-; 1 Clock enable                     ; 16                           ;
+; 1 Async. clear                     ; 17                           ;
+; 1 Clock                            ; 45                           ;
+; 1 Clock enable                     ; 18                           ;
 ; 1 Sync. clear                      ; 3                            ;
-; 1 Sync. load                       ; 5                            ;
-; 2 Clock enables                    ; 2                            ;
-; 2 Clocks                           ; 10                           ;
+; 1 Sync. load                       ; 4                            ;
+; 2 Clock enables                    ; 1                            ;
+; 2 Clocks                           ; 11                           ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 17.13) ; Number of LABs  (Total = 88) ;
+; Number of Signals Sourced  (Average = 17.95) ; Number of LABs  (Total = 84) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
-; 2                                            ; 2                            ;
+; 1                                            ; 1                            ;
+; 2                                            ; 0                            ;
 ; 3                                            ; 0                            ;
-; 4                                            ; 2                            ;
+; 4                                            ; 0                            ;
 ; 5                                            ; 0                            ;
-; 6                                            ; 2                            ;
+; 6                                            ; 1                            ;
 ; 7                                            ; 2                            ;
-; 8                                            ; 3                            ;
+; 8                                            ; 1                            ;
 ; 9                                            ; 1                            ;
 ; 10                                           ; 2                            ;
-; 11                                           ; 4                            ;
-; 12                                           ; 2                            ;
-; 13                                           ; 0                            ;
-; 14                                           ; 3                            ;
-; 15                                           ; 8                            ;
-; 16                                           ; 10                           ;
+; 11                                           ; 1                            ;
+; 12                                           ; 6                            ;
+; 13                                           ; 3                            ;
+; 14                                           ; 7                            ;
+; 15                                           ; 6                            ;
+; 16                                           ; 12                           ;
 ; 17                                           ; 8                            ;
 ; 18                                           ; 2                            ;
-; 19                                           ; 3                            ;
-; 20                                           ; 0                            ;
-; 21                                           ; 6                            ;
-; 22                                           ; 4                            ;
-; 23                                           ; 3                            ;
-; 24                                           ; 6                            ;
-; 25                                           ; 1                            ;
-; 26                                           ; 1                            ;
-; 27                                           ; 4                            ;
-; 28                                           ; 2                            ;
+; 19                                           ; 2                            ;
+; 20                                           ; 1                            ;
+; 21                                           ; 1                            ;
+; 22                                           ; 5                            ;
+; 23                                           ; 2                            ;
+; 24                                           ; 2                            ;
+; 25                                           ; 4                            ;
+; 26                                           ; 5                            ;
+; 27                                           ; 3                            ;
+; 28                                           ; 1                            ;
 ; 29                                           ; 1                            ;
 ; 30                                           ; 0                            ;
-; 31                                           ; 4                            ;
+; 31                                           ; 3                            ;
+; 32                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 5.99) ; Number of LABs  (Total = 88) ;
+; Number of Signals Sourced Out  (Average = 6.33) ; Number of LABs  (Total = 84) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 8                            ;
-; 2                                               ; 8                            ;
-; 3                                               ; 16                           ;
-; 4                                               ; 12                           ;
-; 5                                               ; 5                            ;
-; 6                                               ; 8                            ;
-; 7                                               ; 3                            ;
-; 8                                               ; 6                            ;
-; 9                                               ; 3                            ;
-; 10                                              ; 8                            ;
-; 11                                              ; 0                            ;
+; 1                                               ; 3                            ;
+; 2                                               ; 10                           ;
+; 3                                               ; 12                           ;
+; 4                                               ; 11                           ;
+; 5                                               ; 3                            ;
+; 6                                               ; 11                           ;
+; 7                                               ; 7                            ;
+; 8                                               ; 7                            ;
+; 9                                               ; 4                            ;
+; 10                                              ; 2                            ;
+; 11                                              ; 4                            ;
 ; 12                                              ; 1                            ;
-; 13                                              ; 2                            ;
-; 14                                              ; 3                            ;
+; 13                                              ; 3                            ;
+; 14                                              ; 1                            ;
 ; 15                                              ; 2                            ;
 ; 16                                              ; 3                            ;
 +-------------------------------------------------+------------------------------+
@@ -1017,45 +1005,42 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 12.64) ; Number of LABs  (Total = 88) ;
+; Number of Distinct Inputs  (Average = 12.42) ; Number of LABs  (Total = 84) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 0                            ;
+; 1                                            ; 1                            ;
 ; 2                                            ; 1                            ;
 ; 3                                            ; 3                            ;
-; 4                                            ; 7                            ;
+; 4                                            ; 4                            ;
 ; 5                                            ; 8                            ;
-; 6                                            ; 6                            ;
-; 7                                            ; 8                            ;
-; 8                                            ; 2                            ;
-; 9                                            ; 12                           ;
-; 10                                           ; 5                            ;
-; 11                                           ; 2                            ;
+; 6                                            ; 5                            ;
+; 7                                            ; 11                           ;
+; 8                                            ; 6                            ;
+; 9                                            ; 6                            ;
+; 10                                           ; 3                            ;
+; 11                                           ; 5                            ;
 ; 12                                           ; 0                            ;
 ; 13                                           ; 1                            ;
-; 14                                           ; 0                            ;
-; 15                                           ; 3                            ;
-; 16                                           ; 0                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 0                            ;
+; 16                                           ; 3                            ;
 ; 17                                           ; 2                            ;
-; 18                                           ; 3                            ;
-; 19                                           ; 4                            ;
-; 20                                           ; 1                            ;
-; 21                                           ; 4                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 3                            ;
+; 20                                           ; 3                            ;
+; 21                                           ; 3                            ;
 ; 22                                           ; 0                            ;
-; 23                                           ; 4                            ;
-; 24                                           ; 3                            ;
-; 25                                           ; 2                            ;
-; 26                                           ; 2                            ;
+; 23                                           ; 1                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 4                            ;
+; 26                                           ; 1                            ;
 ; 27                                           ; 1                            ;
 ; 28                                           ; 1                            ;
-; 29                                           ; 0                            ;
-; 30                                           ; 1                            ;
-; 31                                           ; 0                            ;
+; 29                                           ; 1                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 2                            ;
 ; 32                                           ; 1                            ;
-; 33                                           ; 0                            ;
-; 34                                           ; 0                            ;
-; 35                                           ; 0                            ;
-; 36                                           ; 1                            ;
+; 33                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1156,6 +1141,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; an[6]              ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; an[7]              ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; sw                 ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; signal             ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LCD_DATA[0]        ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LCD_DATA[1]        ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LCD_DATA[2]        ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Pass         ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
@@ -1172,7 +1158,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; filas[2]           ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; filas[0]           ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; presencia          ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; signal             ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -1212,14 +1197,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------+--------+
 
 
-+------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Summary              ;
-+-----------------+----------------------+-------------------+
-; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
-+-----------------+----------------------+-------------------+
-; Clk             ; message[0]           ; 566.8             ;
-; Clk             ; Clk                  ; 18.2              ;
-+-----------------+----------------------+-------------------+
++-----------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary                                           ;
++-----------------+---------------------------------------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s)                              ; Delay Added in ns ;
++-----------------+---------------------------------------------------+-------------------+
+; Clk             ; message[0]                                        ; 567.6             ;
+; Clk             ; Clk                                               ; 18.7              ;
+; Clk             ; temporizador_top:temporizador|div_freq:div|clk_1h ; 15.9              ;
++-----------------+---------------------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
 
@@ -1229,11 +1215,14 @@ This will disable optimization of problematic paths and expose them for further 
 +-----------------------------------------------------------------+----------------------------------------------------------------+-------------------+
 ; Source Register                                                 ; Destination Register                                           ; Delay Added in ns ;
 +-----------------------------------------------------------------+----------------------------------------------------------------+-------------------+
-; message[0]                                                      ; LCD_Top:lcd|Mostrar_11[1]                                      ; 4.866             ;
+; message[0]                                                      ; LCD_Top:lcd|Mostrar_24[6]                                      ; 4.796             ;
 ; DisplayDin:display|div_freq:freq|clk_1k                         ; DisplayDin:display|div_freq:freq|clk_1k                        ; 3.251             ;
-; temporizador_top:temporizador|div_freq:div|clk_1h               ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 3.119             ;
-; Keyboard_top:key|div_freq:div|clk_1k                            ; Keyboard_top:key|div_freq:div|clk_1k                           ; 2.934             ;
+; Keyboard_top:key|div_freq:div|clk_1k                            ; Keyboard_top:key|div_freq:div|clk_1k                           ; 2.922             ;
+; div_freq:comb_3|clk_1h                                          ; div_freq:comb_3|clk_1h                                         ; 2.201             ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0]  ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.121             ;
+; message[1]                                                      ; LCD_Top:lcd|Mostrar_23[0]                                      ; 2.111             ;
+; message[2]                                                      ; LCD_Top:lcd|Mostrar_23[0]                                      ; 2.111             ;
+; message[3]                                                      ; LCD_Top:lcd|Mostrar_23[0]                                      ; 2.111             ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[14] ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.074             ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[13] ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.074             ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[12] ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.074             ;
@@ -1249,86 +1238,83 @@ This will disable optimization of problematic paths and expose them for further 
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[2]  ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.074             ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[1]  ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.074             ;
 ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[15] ; rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] ; 2.074             ;
-; message[1]                                                      ; LCD_Top:lcd|Mostrar_18[2]                                      ; 1.865             ;
-; message[2]                                                      ; LCD_Top:lcd|Mostrar_18[2]                                      ; 1.865             ;
-; message[3]                                                      ; LCD_Top:lcd|Mostrar_18[2]                                      ; 1.865             ;
-; temporizador_top:temporizador|div_freq:div|cont2[26]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[25]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[24]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[23]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[22]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[21]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[20]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[19]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[18]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[17]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[16]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[15]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[14]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[13]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[12]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[11]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[10]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[9]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[8]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[7]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[6]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[5]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[4]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[3]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[2]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[1]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[0]             ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; temporizador_top:temporizador|div_freq:div|cont2[27]            ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 1.560             ;
-; count[28]                                                       ; message[0]                                                     ; 1.276             ;
-; count[27]                                                       ; message[0]                                                     ; 1.276             ;
-; count[26]                                                       ; message[0]                                                     ; 1.276             ;
-; count[25]                                                       ; message[0]                                                     ; 1.276             ;
-; count[24]                                                       ; message[0]                                                     ; 1.276             ;
-; count[23]                                                       ; message[0]                                                     ; 1.276             ;
-; count[22]                                                       ; message[0]                                                     ; 1.276             ;
-; count[21]                                                       ; message[0]                                                     ; 1.276             ;
-; count[19]                                                       ; message[0]                                                     ; 1.276             ;
-; count[18]                                                       ; message[0]                                                     ; 1.276             ;
-; count[17]                                                       ; message[0]                                                     ; 1.276             ;
-; count[16]                                                       ; message[0]                                                     ; 1.276             ;
-; count[15]                                                       ; message[0]                                                     ; 1.276             ;
-; count[14]                                                       ; message[0]                                                     ; 1.276             ;
-; count[13]                                                       ; message[0]                                                     ; 1.276             ;
-; count[12]                                                       ; message[0]                                                     ; 1.276             ;
-; count[11]                                                       ; message[0]                                                     ; 1.276             ;
-; count[10]                                                       ; message[0]                                                     ; 1.276             ;
-; count[9]                                                        ; message[0]                                                     ; 1.276             ;
-; count[8]                                                        ; message[0]                                                     ; 1.276             ;
-; count[7]                                                        ; message[0]                                                     ; 1.276             ;
-; count[6]                                                        ; message[0]                                                     ; 1.276             ;
-; count[5]                                                        ; message[0]                                                     ; 1.276             ;
-; count[4]                                                        ; message[0]                                                     ; 1.276             ;
-; count[3]                                                        ; message[0]                                                     ; 1.276             ;
-; count[2]                                                        ; message[0]                                                     ; 1.276             ;
-; count[1]                                                        ; message[0]                                                     ; 1.276             ;
-; count[0]                                                        ; message[0]                                                     ; 1.276             ;
-; count[29]                                                       ; message[0]                                                     ; 1.276             ;
-; count[20]                                                       ; message[0]                                                     ; 1.276             ;
-; status.MENU                                                     ; message[0]                                                     ; 1.276             ;
-; status.RE_DEC                                                   ; message[0]                                                     ; 1.276             ;
-; status.RE_SEG                                                   ; message[0]                                                     ; 1.276             ;
-; status.PAUSE                                                    ; message[0]                                                     ; 1.276             ;
-; status.000                                                      ; message[0]                                                     ; 1.276             ;
-; status.END                                                      ; message[0]                                                     ; 1.276             ;
-; status.RE_MIN                                                   ; message[0]                                                     ; 1.276             ;
-; status.TEMP                                                     ; message[0]                                                     ; 1.276             ;
-; tiempo_establecido[6]                                           ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[6]  ; 1.178             ;
-; tiempo_establecido[0]                                           ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[0]  ; 1.178             ;
-; pause                                                           ; temporizador_top:temporizador|temporizador:temp|alarma         ; 0.985             ;
-; tiempo_sig2[14]                                                 ; DisplayDin:display|BCD[2]                                      ; 0.980             ;
-; tiempo_sig2[13]                                                 ; DisplayDin:display|BCD[1]                                      ; 0.980             ;
-; tiempo_sig2[12]                                                 ; DisplayDin:display|BCD[0]                                      ; 0.980             ;
-; tiempo_sig2[15]                                                 ; DisplayDin:display|BCD[3]                                      ; 0.977             ;
-; tiempo_sig2[10]                                                 ; DisplayDin:display|BCD[2]                                      ; 0.883             ;
-; tiempo_sig2[6]                                                  ; DisplayDin:display|BCD[2]                                      ; 0.796             ;
-; tiempo_sig2[4]                                                  ; DisplayDin:display|BCD[0]                                      ; 0.796             ;
-; tiempo_sig2[9]                                                  ; DisplayDin:display|BCD[1]                                      ; 0.795             ;
+; temporizador_top:temporizador|div_freq:div|clk_1h               ; temporizador_top:temporizador|div_freq:div|clk_1h              ; 2.055             ;
+; tiempo_sig2[10]                                                 ; DisplayDin:display|BCD[2]                                      ; 1.206             ;
+; tiempo_establecido[8]                                           ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[8]  ; 1.151             ;
+; contar_caudal                                                   ; caudal:cad|mililitros[1]                                       ; 1.056             ;
+; tiempo_establecido[9]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 1.031             ;
+; tiempo_establecido[4]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 1.028             ;
+; tiempo_establecido[10]                                          ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 1.027             ;
+; tiempo_establecido[3]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 1.027             ;
+; tiempo_establecido[5]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 1.024             ;
+; pause                                                           ; temporizador_top:temporizador|temporizador:temp|alarma         ; 1.024             ;
+; tiempo_establecido[1]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 0.985             ;
+; tiempo_establecido[6]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 0.973             ;
+; tiempo_establecido[2]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 0.967             ;
+; tiempo_establecido[0]                                           ; temporizador_top:temporizador|temporizador:temp|status.EJEC    ; 0.959             ;
+; tiempo_sig2[12]                                                 ; DisplayDin:display|BCD[0]                                      ; 0.943             ;
+; tiempo_sig2[5]                                                  ; DisplayDin:display|BCD[1]                                      ; 0.895             ;
+; tiempo_sig2[7]                                                  ; DisplayDin:display|BCD[3]                                      ; 0.879             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[1]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[0]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[2]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[10]  ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[8]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[9]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[11]  ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[4]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[6]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|status.EJEC     ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[5]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; temporizador_top:temporizador|temporizador:temp|tiempo_sig[3]   ; temporizador_top:temporizador|temporizador:temp|tiempo_sig[7]  ; 0.811             ;
+; count[28]                                                       ; message[0]                                                     ; 0.796             ;
+; count[27]                                                       ; message[0]                                                     ; 0.796             ;
+; count[26]                                                       ; message[0]                                                     ; 0.796             ;
+; count[25]                                                       ; message[0]                                                     ; 0.796             ;
+; count[24]                                                       ; message[0]                                                     ; 0.796             ;
+; count[23]                                                       ; message[0]                                                     ; 0.796             ;
+; count[22]                                                       ; message[0]                                                     ; 0.796             ;
+; count[21]                                                       ; message[0]                                                     ; 0.796             ;
+; count[19]                                                       ; message[0]                                                     ; 0.796             ;
+; count[18]                                                       ; message[0]                                                     ; 0.796             ;
+; count[17]                                                       ; message[0]                                                     ; 0.796             ;
+; count[16]                                                       ; message[0]                                                     ; 0.796             ;
+; count[15]                                                       ; message[0]                                                     ; 0.796             ;
+; count[14]                                                       ; message[0]                                                     ; 0.796             ;
+; count[13]                                                       ; message[0]                                                     ; 0.796             ;
+; count[12]                                                       ; message[0]                                                     ; 0.796             ;
+; count[11]                                                       ; message[0]                                                     ; 0.796             ;
+; count[10]                                                       ; message[0]                                                     ; 0.796             ;
+; count[9]                                                        ; message[0]                                                     ; 0.796             ;
+; count[8]                                                        ; message[0]                                                     ; 0.796             ;
+; count[7]                                                        ; message[0]                                                     ; 0.796             ;
+; count[6]                                                        ; message[0]                                                     ; 0.796             ;
+; count[5]                                                        ; message[0]                                                     ; 0.796             ;
+; count[4]                                                        ; message[0]                                                     ; 0.796             ;
+; count[3]                                                        ; message[0]                                                     ; 0.796             ;
+; count[2]                                                        ; message[0]                                                     ; 0.796             ;
+; count[1]                                                        ; message[0]                                                     ; 0.796             ;
+; count[0]                                                        ; message[0]                                                     ; 0.796             ;
+; count[29]                                                       ; message[0]                                                     ; 0.796             ;
+; count[20]                                                       ; message[0]                                                     ; 0.796             ;
+; status.MENU                                                     ; message[0]                                                     ; 0.796             ;
+; status.RE_DEC                                                   ; message[0]                                                     ; 0.796             ;
+; status.RE_SEG                                                   ; message[0]                                                     ; 0.796             ;
+; status.PAUSE                                                    ; message[0]                                                     ; 0.796             ;
+; status.000                                                      ; message[0]                                                     ; 0.796             ;
+; status.END                                                      ; message[0]                                                     ; 0.796             ;
+; status.RE_MIN                                                   ; message[0]                                                     ; 0.796             ;
+; status.TEMP                                                     ; message[0]                                                     ; 0.796             ;
+; tiempo_sig2[9]                                                  ; DisplayDin:display|BCD[1]                                      ; 0.789             ;
+; tiempo_sig2[1]                                                  ; DisplayDin:display|BCD[1]                                      ; 0.691             ;
+; tiempo_sig2[2]                                                  ; DisplayDin:display|BCD[2]                                      ; 0.668             ;
+; tiempo_sig2[15]                                                 ; DisplayDin:display|BCD[3]                                      ; 0.586             ;
+; tiempo_sig2[14]                                                 ; DisplayDin:display|BCD[2]                                      ; 0.586             ;
+; tiempo_sig2[13]                                                 ; DisplayDin:display|BCD[1]                                      ; 0.586             ;
+; tiempo_sig2[8]                                                  ; DisplayDin:display|BCD[0]                                      ; 0.540             ;
+; caudal:cad|mililitros[1]                                        ; caudal:cad|mililitros[1]                                       ; 0.525             ;
+; caudal:cad|mililitros[3]                                        ; caudal:cad|mililitros[1]                                       ; 0.525             ;
 +-----------------------------------------------------------------+----------------------------------------------------------------+-------------------+
 Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
 
@@ -1362,50 +1348,54 @@ Info (332097): The following timing edges are non-unate.  The Timing Analyzer wi
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node Clk~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 1
+Info (176353): Automatically promoted node Clk~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 1
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[1] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[2] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[3] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[4] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[5] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[6] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[7] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[8] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[9] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[10] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[1] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[2] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[3] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[4] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[5] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[6] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[7] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[8] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[9] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[10] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
         Info (176358): Non-global destination nodes limited to 10 nodes
-Info (176353): Automatically promoted node LCD_Top:lcd|Mux0~0  File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/LCD_Top.v Line: 62
+Info (176353): Automatically promoted node LCD_Top:lcd|Mux0~0  File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/LCD_Top.v Line: 61
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0  File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 26
+Info (176353): Automatically promoted node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|Equal0  File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 26
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[1] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[2] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[3] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[4] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[5] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[6] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[7] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[8] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
-        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[9] File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[0] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[1] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[2] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[3] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[4] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[5] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[6] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[7] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[8] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
+        Info (176357): Destination node rfid_top:rfid|UART_BaudRate_generator:I_BAUDGEN|baudRateReg[9] File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/uart_baudrate_generator.v Line: 24
         Info (176358): Non-global destination nodes limited to 10 nodes
-Info (176353): Automatically promoted node temporizador_top:temporizador|div_freq:div|clk_1h  File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/div_freq.v Line: 3
+Info (176353): Automatically promoted node div_freq:comb_3|clk_1h  File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 3
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node temporizador_top:temporizador|div_freq:div|clk_1h~0 File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/div_freq.v Line: 3
-Info (176353): Automatically promoted node DisplayDin:display|div_freq:freq|clk_1k  File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/div_freq.v Line: 2
+        Info (176357): Destination node div_freq:comb_3|clk_1h~0 File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 3
+Info (176353): Automatically promoted node temporizador_top:temporizador|div_freq:div|clk_1h  File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 3
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node DisplayDin:display|div_freq:freq|clk_1k~0 File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/div_freq.v Line: 2
-Info (176353): Automatically promoted node Keyboard_top:key|div_freq:div|clk_1k  File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/div_freq.v Line: 2
+        Info (176357): Destination node temporizador_top:temporizador|div_freq:div|clk_1h~0 File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 3
+Info (176353): Automatically promoted node DisplayDin:display|div_freq:freq|clk_1k  File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 2
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node Keyboard_top:key|div_freq:div|clk_1k~0 File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/div_freq.v Line: 2
-Info (176353): Automatically promoted node Rst_n~input (placed in PIN 89 (CLK6, DIFFCLK_3p)) File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 4
-    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G9
+        Info (176357): Destination node DisplayDin:display|div_freq:freq|clk_1k~0 File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 2
+Info (176353): Automatically promoted node Keyboard_top:key|div_freq:div|clk_1k  File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 2
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
+    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
+        Info (176357): Destination node Keyboard_top:key|div_freq:div|clk_1k~0 File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/div_freq.v Line: 2
+Info (176353): Automatically promoted node Rst_n~input (placed in PIN 89 (CLK6, DIFFCLK_3p)) File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 4
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G6
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -1422,46 +1412,46 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has 2.5V VCCIO pins. 7 total pin(s) used --  3 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has 2.5V VCCIO pins. 10 total pin(s) used --  3 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has 2.5V VCCIO pins. 9 total pin(s) used --  3 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:03
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:04
 Info (170193): Fitter routing operations beginning
-Info (170089): 6e+02 ns of routing delay (approximately 2.0% of available device routing delay) has been added to meet hold timing. For more information, refer to the Estimated Delay Added for Hold Timing section in the Fitter report.
+Info (170089): 6e+02 ns of routing delay (approximately 2.1% of available device routing delay) has been added to meet hold timing. For more information, refer to the Estimated Delay Added for Hold Timing section in the Fitter report.
 Info (170195): Router estimated average interconnect usage is 2% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 7% of the available device resources in the region that extends from location X11_Y0 to location X22_Y11
+    Info (170196): Router estimated peak interconnect usage is 9% of the available device resources in the region that extends from location X11_Y12 to location X22_Y24
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:04
-Info (11888): Total time spent on timing analysis during the Fitter is 1.45 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 1.79 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (169064): Following 8 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
-    Info (169065): Pin LCD_DATA[0] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[1] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[2] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[3] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[4] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[5] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[6] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-    Info (169065): Pin LCD_DATA[7] has a permanently enabled output enable File: C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/TOP.v Line: 27
-Info (144001): Generated suppressed messages file C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/output_files/TOP.fit.smsg
+    Info (169065): Pin LCD_DATA[0] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[1] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[2] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[3] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[4] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[5] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[6] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+    Info (169065): Pin LCD_DATA[7] has a permanently enabled output enable File: C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/TOP.v Line: 27
+Info (144001): Generated suppressed messages file C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/output_files/TOP.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 5238 megabytes
-    Info: Processing ended: Tue Dec 15 06:01:00 2020
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 5255 megabytes
+    Info: Processing ended: Tue Dec 15 16:32:40 2020
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:20
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Andres/Desktop/TOP_V9.4/TOP_V9.3/TOP/output_files/TOP.fit.smsg.
+The suppressed messages can be found in C:/Users/Users/Desktop/UN/Sexto Semestre/Digital I/PROYECT X/TOP_VX/TOP_V9.3/TOP/output_files/TOP.fit.smsg.
 
 

@@ -1,0 +1,1 @@
+El Arduino fue usado para conectarse al sensor RFID mediante SPI y a su vez codificar esta información en un solo carácter para ser enviado por protocolo UART a la FPGA mediante el puerto serial.

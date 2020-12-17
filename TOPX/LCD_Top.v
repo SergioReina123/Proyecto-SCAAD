@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 module LCD_Top(
                 CLOCK_50,  //50 MZ
                  LCD_RW,   //LCD Read/Write Select, 0 = Write, 1 = Read
@@ -57,7 +56,7 @@ wire DLY_RST;
 
 Reset_Delay r0 ( .iCLK(CLOCK_50),.oRESET(DLY_RST)    );
 
-always @ ( *)begin
+always begin
 
 case(mensaje)
 	0:begin

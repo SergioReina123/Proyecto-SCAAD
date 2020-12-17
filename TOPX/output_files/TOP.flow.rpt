@@ -1,5 +1,5 @@
 Flow report for TOP
-Tue Dec 15 06:01:30 2020
+Tue Dec 15 16:33:17 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Dec 15 06:01:29 2020       ;
+; Flow Status                        ; Successful - Tue Dec 15 16:33:16 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; TOP                                         ;
 ; Top-level Entity Name              ; TOP                                         ;
@@ -50,8 +50,8 @@ https://fpgasoftware.intel.com/eula.
 ; Timing Models                      ; Final                                       ;
 ; Total logic elements               ; 1,147                                       ;
 ;     Total combinational functions  ; 1,118                                       ;
-;     Dedicated logic registers      ; 354                                         ;
-; Total registers                    ; 354                                         ;
+;     Dedicated logic registers      ; 356                                         ;
+; Total registers                    ; 356                                         ;
 ; Total pins                         ; 53                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/15/2020 06:01:16 ;
+; Start date & time ; 12/15/2020 16:32:59 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TOP                 ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 123719788403211.160803007607560        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 176527403782430.160806797903476        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --          ; --         ;
@@ -97,8 +97,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4729 MB             ; 00:00:26                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:26                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4744 MB             ; 00:00:35                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -107,7 +107,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-FPQDBQ7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-78EC8U2  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

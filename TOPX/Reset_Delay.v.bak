@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module    Reset_Delay(iCLK,oRESET);
 input        iCLK;
 output reg    oRESET;
