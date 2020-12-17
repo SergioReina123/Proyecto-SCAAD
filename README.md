@@ -1,7 +1,7 @@
 # Proyecto-SCAAD
 El Sistema de Control para Ahorro de Agua en Duchas (SCAAD) esta enfocado a incentivar practicas amigables con el medio ambiente a la hora de ducharse.
 Este proyecto se desarrolla en el lenguaje de descripción de hardware Verilog y posteriormente se monta en una FPGA.
-El video del proyecto es [este](https://drive.google.com/file/d/1eg4OGsy9ewp7y_-n4TUYD8N0tJIq8nsK/view?usp=sharing).
+El video del proyecto es [este](https://www.youtube.com/watch?v=t4T3hACa8R0).
 # Periféricos y protocolos usados
 * Teclado matricial
 * Sensor infrarrojo
